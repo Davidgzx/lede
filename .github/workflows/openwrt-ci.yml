@@ -639,17 +639,7 @@ jobs:
 
 
 
-
-
-
-
-
-
-
           CONFIG_PACKAGE_wireless-regdb=y
-
-
-
 
 
 
@@ -752,8 +742,6 @@ jobs:
           CONFIG_PACKAGE_kmod-mt7615e=y
 
 
-
-
           CONFIG_GOLANG_EXTERNAL_BOOTSTRAP_ROOT=""
           CONFIG_GOLANG_BUILD_CACHE_DIR=""
 
@@ -763,26 +751,9 @@ jobs:
           CONFIG_PACKAGE_luci-lib-fs=y
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
           CONFIG_PACKAGE_libip4tc=y
           CONFIG_PACKAGE_libip6tc=y
           CONFIG_PACKAGE_libxtables=y
-
-
-
-
 
 
           CONFIG_QT5_INCLUDE_ATOMIC=y
@@ -915,6 +886,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-vsftpd=y
           CONFIG_PACKAGE_luci-app-wol=y
 
+          CONFIG_PACKAGE_luci-theme-argon=y
+          CONFIG_PACKAGE_luci-theme-atmaterial=y
           CONFIG_PACKAGE_luci-theme-bootstrap=y
 
           CONFIG_PACKAGE_luci-proto-ppp=y
@@ -990,14 +963,6 @@ jobs:
           CONFIG_DNSPROXY_COMPRESS_UPX=y
 
 
-
-
-
-
-
-
-
-
           CONFIG_OPENLDAP_DEBUG=y
 
 
@@ -1005,12 +970,6 @@ jobs:
 
           CONFIG_PACKAGE_ip-full=y
           CONFIG_PACKAGE_mwan3=y
-
-
-
-
-
-
 
 
 
@@ -1056,26 +1015,11 @@ jobs:
 
 
 
-
-
           CONFIG_PACKAGE_uboot-envtools=y
 
 
 
           CONFIG_PACKAGE_hd-idle=y
-
-
-
-
-
-
-
-
-
-
-
-
-
 
           CONFIG_PACKAGE_coremark=y
           CONFIG_COREMARK_OPTIMIZE_O3=y
@@ -1090,6 +1034,9 @@ jobs:
           CONFIG_PACKAGE_shellsync=y
           CONFIG_STRACE_NONE=y
           CONFIG_PACKAGE_ubi-utils=y
+
+
+
 
 
 
